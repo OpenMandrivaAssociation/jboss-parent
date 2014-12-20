@@ -1,7 +1,8 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:                 jboss-parent
 Version:              11
-Release:              1.1%{?dist}
+Release:              1.2
+Group:                Development/Java
 Summary:              JBoss Parent POM
 License:              Public Domain
 URL:                  http://www.jboss.org/
@@ -25,6 +26,9 @@ The Project Object Model files for JBoss packages.
 %pom_remove_plugin ":findbugs-maven-plugin"
 %pom_remove_plugin ":sonar-maven-plugin"
 %pom_remove_plugin ":javancss-maven-plugin"
+
+%pom_remove_dep com.sun:tools
+%pom_add_dep com.sun:tools
 
 %build
 %mvn_build
