@@ -1,7 +1,7 @@
 %{?_javapackages_macros:%_javapackages_macros}
 Name:                 jboss-parent
 Version:              11
-Release:              1.3
+Release:              1.4
 Group:                Development/Java
 Summary:              JBoss Parent POM
 License:              Public Domain
