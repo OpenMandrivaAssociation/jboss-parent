@@ -5,7 +5,7 @@ Release:              1.5
 Group:                Development/Java
 Summary:              JBoss Parent POM
 License:              Public Domain
-URL:                  http://www.jboss.org/
+URL:                  https://www.jboss.org/
 Source0:              https://github.com/jboss/jboss-parent-pom/archive/86bff326310a192ef657d893fa8e96ebd33e1ae4.tar.gz
 BuildArch:            noarch
 
