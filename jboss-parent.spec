@@ -7,6 +7,9 @@ License:              Public Domain
 URL:                  https://github.com/jboss/jboss-parent-pom
 Source0:              https://github.com/jboss/jboss-parent-pom/archive/refs/tags/jboss-parent-%{version}.tar.gz
 BuildArch:            noarch
+# Literal, so the first rpmbuild -bs records them before sysjar is installed.
+BuildRequires:	maven
+BuildRequires:	java-current-devel
 BuildSystem:	maven
 BuildOption:	validate
 
